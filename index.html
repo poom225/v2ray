@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>Card Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card">
+    <h2 class="name">บังภูมิ</h2>
+
+    <!-- รูปภาพหลัก -->
+    <div class="main-image">
+        <img id="mainImg" src="https://via.placeholder.com/300" alt="Main Image">
+    </div>
+
+    <!-- รูปภาพสำรอง -->
+    <div class="thumbnails">
+        <img src="https://via.placeholder.com/300/ff0000" onclick="changeImage(this.src)">
+        <img src="https://via.placeholder.com/300/00ff00" onclick="changeImage(this.src)">
+        <img src="https://via.placeholder.com/300/0000ff" onclick="changeImage(this.src)">
+    </div>
+
+    <!-- ข้อมูล -->
+    <div class="info">
+        <p><strong>ตำแหน่ง:</strong> Developer</p>
+        <p><strong>ความสามารถ:</strong> HTML, CSS, JavaScript</p>
+        <p><strong>แพลตฟอร์ม:</strong> GitHub Pages</p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
